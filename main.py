@@ -28,8 +28,8 @@ def batch_largest_eigval(Sigma_n):
 
 
 def main1():
-	n = int(500)
-	c = 2
+	n = int(400)
+	c = .36
 	sigma = 1
 	ls_theta = np.linspace(1e-3, 2)
 	# ls_theta = np.array([0.2, 0.7])
